@@ -1,0 +1,45 @@
+Collections can contain any type of object
+Generics stop run time errors
+The Buffer class provides a buffer or a container for data chunks of specific primitive types.
+Generics enable the use of stronger type-checking, the elimination of casts, and the ability to develop generic algorithms.
+the most common use of generics in the Java API and in the Java ecosystem is to write collections‑oriented code.
+Generics come in classes, interfaces, methods, or wildcards.
+Compatibility and lambda expressions also work with generics
+A list is an ordered collection.
+A set is a collection with unique elements.
+ A map is a collection with got keys and values and a one‑to‑one relationship between those keys and values.
+Have to use Array to string to print out arrays
+It is hard to expand arrays
+Theres more functions in collections then in arrays so it better to use collections
+Sets don't have duplicates
+Sets don't have a get method because it is unordered
+Integer class has comparable implemented
+Comparators can have parameters of generics
+Generics can be in your return type parameters and the body of your method
+Wildcards are the question marks in generic type parameters
+They unbounded, lower bounded, and upper bounded wildcards
+Upper and lower bounded is when you see ? extends class name or ? super class name
+A unbounded is just a ? for example list extends <?>
+Its only safe to use add null to list <?>
+? extends gets data out of parameters
+? super to put data into parameter
+You can replace a legacy class file with a generic class file without changing or recompiling any client code
+Raw types can consist of run time errors
+You can assign from a raw type to any generic type
+The implication of Erasure are overloading, Instances, and performance.
+You cant overload Strings and Integers because they would clash and have the same erasure
+You cant do instance of a generic type
+Primitives, Non parametrized class or interface, arguments and unbounded wildcards, Raw types, and Arrays are all Reifiable types
+Get class shows you data type you are using when printed
+Intersections can extend a class and interface
+Intersections types enable compatibility
+@SafeVarargs annotation is used to suppress the unsafe operation warnings at the compile time
+Generics let us add type parameters to class
+Wildcards make type parameters more flexible
+You cant reflect all generic information
+Lambdas have their types inferred
+
+
+
+
+
